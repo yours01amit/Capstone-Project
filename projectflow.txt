@@ -7,3 +7,17 @@
 5. cookiecutter -c v1 https://github.com/drivendata/cookiecutter-data-science
 6. rename src.models -> src.model
 7. git add -- commit -- push
+
+
+------------------ Setup mlflow on Dagshub ----------------
+
+8. go to https://dagshub.com/dashboard
+9. create -> new repo -> connect a repo -> (github) connect -> Select your repo -> connect
+10. copy experiment tracking url and code snippet. (Also try: Go To MLflow UI)
+11. pip install dagshub & mlflow
+12. Run the experiment notebook
+13. git add -- commit-- push
+14. dvc init
+15. open a new cmd terminal and do - echo %TEMP% (copy the temp folder location)
+
+16. dvc remote add -d myremote s3_local

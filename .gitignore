@@ -169,3 +169,11 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+cred.txt
+projectflow.txt
+IMDB.csv
+mlruns/
+data/
+models/
+local_s3/
